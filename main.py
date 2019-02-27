@@ -70,7 +70,7 @@ class Data():
         return self._time[from_node][to_node]
 
 def dataprocess(address):
-    api_key = "AIzaSyBVEcOZSO74Ewbw1NuViK31zryGAyySL94"
+    api_key = "your_api_key"
     client = gapi.Client(api_key)
     address = address['address'].tolist()
     location_loc_list = []
