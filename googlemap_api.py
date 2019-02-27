@@ -57,7 +57,8 @@ class Client():
 		return metrix
 		
 if __name__ == "__main__":
-	api_key = "AIzaSyBVEcOZSO74Ewbw1NuViK31zryGAyySL94"
+	#testing data
+	api_key = "your_api_key"
 	client = Client(api_key)
 	origin_list = 	   [[25.0482323, 121.5393215], [25.0693178, 121.5880759], [25.0457061, 121.3658], [24.9855177, 121.2422759], [25.028047, 121.064149]] # origin 的經緯度，list，
 	destination_list = [[25.0482323, 121.5393215], [25.0693178, 121.5880759], [25.0457061, 121.3658], [24.9855177, 121.2422759], [25.028047, 121.064149]]# destination 的經緯度，list，
